@@ -1,0 +1,33 @@
+.enter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .enter-button {
+    background-color: #F4F4F9;
+    border-radius: 4px;
+    width: 205px;
+    color: #F58282;   
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    height: 24px;
+    position: relative;
+    bottom: 170px;
+    left: 57px;
+    
+  }
+
+  .enter-button:hover{
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3)
+  }
+
+  .forget-password{
+    height: 24px;
+    position: relative;
+    bottom: 140px;
+    right: 70px;
+  }
